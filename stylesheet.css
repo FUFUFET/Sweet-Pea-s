@@ -551,12 +551,7 @@ height:150px;}
 
     .footerwrapper{margin-top: 20px;}
 
-    .navlogo{
-        width: 100px;
-    }
-    .footerlogo{
-        width: 100px;
-    }
+ 
     /* h1{font-size: 30px;}
     .intro{font-size: 16px;} */
 }
@@ -573,10 +568,10 @@ height:150px;}
             .footerwrapper{margin-top: 20px;}
         
             .navlogo{
-                width: 150px;
+                width: 100px;
             }
             .footerlogo{
-                width: 150px;
+                width: 100px;
             }
         
     h1{font-size: 24px;}
