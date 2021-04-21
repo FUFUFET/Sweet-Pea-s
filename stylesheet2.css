@@ -24,7 +24,7 @@ nav{
 .nav-wrapper{
     width: 90%;
     
-    /* background-color: rgb(255, 244, 209); */
+    background-color: rgb(255, 244, 209);
     position: relative;
     display:flex;
     justify-content: space-between;
@@ -308,33 +308,6 @@ ul{margin-bottom: 0px;}
     .subpic3{
         max-width: 95%;
     max-height: 95%;}
-
-@media (max-width:1500px){
-    .mainpic{width: 550px;
-    height:412.5px;}
-    h1{
-        font-size: 40px;
-    }
-    .intro{
-        font-size: 16px;
-    }
-    .commonbutton{
-        font-size: 16px;
-    }
-    .subpic1{
-        width: 206.5px;
-        height: 206.5px;
-    }
-    .subpic2{
-        width: 206.5px;
-        height: 206.5px;
-    }
-    .subpic3{
-        width:206.5px;
-        height: 206.5px;
-    }
-}
-
 @media (max-width:1400px){
     .mainpic{width: 500px;
     height:375px;}
@@ -398,7 +371,6 @@ ul{margin-bottom: 0px;}
               .copyright{
                font-size: 14px;
             }
-            .contactinfo{margin-left: 10px;}
 
         
 }
@@ -418,10 +390,43 @@ ul{margin-bottom: 0px;}
     .contact{
         font-size: 16px;
     
-        }}
-        
+        }
 
-  
+    }
+
+/* @media (max-width:700px){
+
+    .container{width: 100%;
+        height:110vh;
+        display: grid;
+        background-color: rgb(255, 244, 209);
+        grid-template-columns:1fr ;
+            grid-template-rows:0.1fr 0.8fr 0.2fr;
+            grid-template-areas: "nav" "main" "footer" ;}
+        
+   
+        .footerwrapper{
+            
+            display: grid;
+            
+            grid-template-columns:1fr 1fr 1fr 1fr ;
+                grid-template-rows:0.5fr 0.1fr;
+                grid-template-areas: 'contactinfo contactinfo contactinfo contactinfo' 'SNS SNS footerlogo footerlogo' 'copyright copyright copyright copyright';
+                
+        }
+
+    
+    .SNS{justify-self:flex-start;
+        /* align-self:flex-end; */
+/* }
+.copyright{
+    justify-self: center;
+ }
+ .contactinfo{justify-self:center;
+text-align: center;}
+ ul{margin-bottom: 0px;}
+} */ 
+
 @media (max-width:600px){
 
     .container{width: 100%;
@@ -429,7 +434,7 @@ ul{margin-bottom: 0px;}
         display: grid;
         background-color: rgb(255, 244, 209);
         grid-template-columns:1fr ;
-            grid-template-rows:0.1fr 0.8fr 0.2fr;
+            grid-template-rows:0.1fr 1fr 0.2fr;
             grid-template-areas: "nav" "main" "footer" ;}
 
  .mainpic{width:400px;
@@ -507,11 +512,11 @@ height:150px;}
   
 
  .container{width: 100%;
-        height:105vh;
+        height:100vh;
         display: grid;
         background-color: rgb(255, 244, 209);
         grid-template-columns:1fr ;
-            grid-template-rows:0.1fr 0.8fr 0.2fr;
+            grid-template-rows:0.1fr 1fr 0.2fr;
             grid-template-areas: "nav" "main" "footer" ;}
         
     
