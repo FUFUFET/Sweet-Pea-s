@@ -173,55 +173,7 @@ nav{
     transform: rotateZ(45deg) translate(-11px,-10px);
     color: rgb(255, 244, 209);
 }
-main{width: 90%;
-    /* height: 730px; */
-    
-    margin: 0 auto;
-   
-    display: grid;
-    background-color: rgb(255, 244, 209);
-    grid-template-columns:1fr 0.33fr 0.33fr 0.33fr ;
-        grid-template-rows:0.5fr 0.5fr;
-        grid-template-areas: 'mainpic mainconetent mainconetent mainconetent' 'mainpic subpic1 subpic2 subpic3';
-        align-self: center;
-        justify-content: center;
-        /* margin-top: 40px; */
-        
-     
 
-}
-.mainpic{grid-area: mainpic;
-justify-self: center;
-align-self:flex-end;
-}
-.mainconetent{grid-area: mainconetent;
-    
-    background-color:rgb(255, 244, 209);
-   
-    display: flex;
-    flex-direction: column;
-    justify-content:flex-end; 
-    
-   /* margin: auto; */
-    /* align-items: flex-start; */
-   
-   border: none;
-margin-bottom: 20px;}
-
-
-    
-
-.subpic1{grid-area: subpic1;
-align-self:flex-start;
-margin: 0 auto;
-margin-left: 0;}
-.subpic2{grid-area: subpic2;
-    align-self:flex-start;
-    margin: 0 auto;}
-.subpic3{grid-area: subpic3;
-    align-self:flex-start;
-    margin: 0 auto;
-    margin-right: 0}
 
 h1{font-size: 60px;
 font-family: Cambria;
@@ -229,23 +181,38 @@ font-family: Cambria;
  line-height: 1.5em; 
 font-weight: normal;
 margin-bottom: -5px;}
-.intro{font-size: 20px;
-    /* margin-top: -30px; */
-    line-height: 1.5em;
-    margin-bottom: 20px;
-font-family: Arial, Helvetica, sans-serif;}
-.commonbutton{
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding:10px 20px;
-    background-color: black;
-    color: white;
-    outline: black solid 2px;
-    margin-left: 2px;
-    width: min-content;
-   
+
+main{
+    justify-self: center;
+    align-self: center;
+    display: grid;
+    grid-template-columns:1fr ;
+    grid-template-rows:0.1fr 0.1fr 0.1fr 0.7fr 0.2fr;
+    grid-template-areas: "nav" "main" "footer" ;
 
 }
+/* .submit{
+    outline: solid black 2px;
+    border:none;
+    padding: 10px 20px;
+    background-color: black;
+     */
+
+.submitty{
+    outline: solid black 2px;
+    
+    padding: 10px 20px;
+    background-color: black;
+  font-size: 20px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  border: none;
+  /* outline: none; */
+}
+
+
+
 footer{
     height:fit-content;
     display: grid;
@@ -266,6 +233,7 @@ align-self:flex-end;}
 ul{
     /* padding-bottom: 10px; */
     margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 li{
     line-height: 1.5em;
@@ -278,6 +246,7 @@ li{
 margin: auto 0;}
 .contact{
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .SNS{
 display: flex;
@@ -291,49 +260,18 @@ grid-area: SNS;}
 .copyright{
     grid-area:copyright ;
     justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
     /* justify-self: flex-end; */
     
 }
 ul{margin-bottom: 0px;}
 
-.mainpic{
-    max-width: 95%;
-    max-height: 95%;}
-    .subpic1{
-    max-width: 95%;
-    max-height: 95%;}
-    .subpic2{
-        max-width: 95%;
-    max-height: 95%;}
-    .subpic3{
-        max-width: 95%;
-    max-height: 95%;}
 @media (max-width:1400px){
-    .mainpic{width: 500px;
-    height:375px;}
+   
     h1{
         font-size: 30px;
     }
-    .intro{
-        font-size: 16px;
-    }
-    .commonbutton{
-        font-size: 16px;
-    }
-    .subpic1{
-        width: 187.5px;
-        height: 187.5px;
-    }
-    .subpic2{
-        width: 187.5px;
-        height: 187.5px;
-    }
-    
-    .subpic3{
-        width: 187.5px;
-        height: 187.5px;
-    
-    }}
+ }
 
     @media (max-width:1200px){
         
@@ -345,32 +283,6 @@ ul{margin-bottom: 0px;}
             grid-template-rows:0.1fr 0.8fr 0.2fr;
             grid-template-areas: "nav" "main" "footer" ;}
 
-
-        main{width: 90%;
-            /* height: 730px; */
-            
-            margin: 0 auto;
-           
-            display: grid;
-            background-color: rgb(255, 244, 209);
-            grid-template-columns:0.33fr 0.33fr 0.33fr ;
-                grid-template-rows:0.3fr 0.5fr 0.3fr;
-                grid-template-areas: ' mainconetent mainconetent mainconetent''mainpic mainpic mainpic'  'subpic1 subpic2 subpic3';     
-        
-        }
-        .mainpic{
-            margin-bottom: 20px;
-        }
-        .subpic1{
-            margin: 0 auto;
-            }
-            
-            .subpic3{
-                margin: 0 auto;
-              }
-              .copyright{
-               font-size: 14px;
-            }
 
         
 }
@@ -437,22 +349,7 @@ text-align: center;}
             grid-template-rows:0.1fr 1fr 0.2fr;
             grid-template-areas: "nav" "main" "footer" ;}
 
- .mainpic{width:400px;
-height:300px;
-max-width: 95%;
-max-height: 95%;}
-.subpic1{width:150px;
-height:150px;
-max-width: 95%;
-max-height: 95%;}
-.subpic2{width:150px;
-    height:150px;
-    max-width: 95%;
-max-height: 95%;}
-.subpic3{width:150px;
-    height:150px;
-    max-width: 95%;
-max-height: 95%;}
+
     .footerwrapper{margin-top: 20px;}
 
     /* .navlogo{
@@ -490,14 +387,7 @@ height:150px;}
 } */
 
 @media (max-width:500px){
-    .mainpic{width:400px;
-        height:300px;}
-        .subpic1{width:150px;
-        height:150px;}
-        .subpic2{width:150px;
-            height:150px;}
-        .subpic3{width:150px;
-            height:150px;}
+  
             .footerwrapper{margin-top: 20px;}
         
             .navlogo{
@@ -511,15 +401,7 @@ height:150px;}
 
   
 
- .container{width: 100%;
-        height:100vh;
-        display: grid;
-        background-color: rgb(255, 244, 209);
-        grid-template-columns:1fr ;
-            grid-template-rows:0.1fr 1fr 0.2fr;
-            grid-template-areas: "nav" "main" "footer" ;}
-        
-    
+ 
          .footerwrapper{
             
             display: grid;
@@ -544,14 +426,7 @@ text-align: center;}
 }
 
 @media (max-width:450px){
-    .mainpic{width:300px;
-        height:225px;}
-        .subpic1{width:100px;
-        height:100px;}
-        .subpic2{width:100px;
-            height:100px;}
-        .subpic3{width:100px;
-            height:100px;}
+   
             .footerwrapper{margin-top: 20px;}
         
             .navlogo{
@@ -562,6 +437,6 @@ text-align: center;}
             }
         
     h1{font-size: 24px;}
-    .intro{font-size: 14px;} 
+    
   
     } 
