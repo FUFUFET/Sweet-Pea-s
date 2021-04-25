@@ -53,8 +53,9 @@ nav{
     margin-top: 80px;
 } */
 .logo:focus{
-    outline:black solid 3px;
-    /* background-color: white; */
+    outline:black solid 2px;
+outline-offset: -3px;
+  
     
 }
 .change{
@@ -204,11 +205,12 @@ margin: 0;}
   .yourname{
       display: flex;
       flex-direction: column;
+      
     
   }
   input{
-      padding: 3px;
-     
+      padding: 2px;
+      
   border-radius: 4px;
   resize: vertical;
  
@@ -217,13 +219,18 @@ margin: 0;}
 line-height: 1em;
 font-size: 16px;
 margin-bottom:5px;
+border:rgb(113,113,113) 1px solid;
 
 }
+
+#name:focus{background-color: rgb(255, 255, 255);}
   #email{height: 1.4em;
     line-height: 1em;
     font-size: 16px;
     margin-bottom:5px;
+    border:rgb(113,113,113) 1px solid;
    }
+   #email:focus{background-color: rgb(255, 255, 255);}
     .bitch{
         display: flex;
         flex-direction: column;
@@ -240,6 +247,7 @@ margin-bottom:5px;
     border: 1px solid rgb(117, 117, 117); */
     border-radius: 4px;
 }
+#comments:focus{background-color: rgb(255, 255, 255);}
 
   .email{
     display: flex;
@@ -310,9 +318,9 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 grid-area: SNS;}
-.IG:focus{background-color: white;
-    outline:black solid 3px;}
-    .FB:focus{background-color: white;
+.IG:focus{
+    outline:black solid 2px;}
+    .FB:focus{
         outline:black solid 3px;}
 .copyright{
     grid-area:copyright ;
