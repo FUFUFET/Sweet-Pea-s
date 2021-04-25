@@ -318,9 +318,7 @@ ul{margin-bottom: 0px;}
     .intro{
         font-size: 16px;
     }
-    .commonbutton{
-        font-size: 16px;
-    }
+   
     .subpic1{
         width: 206.5px;
         height: 206.5px;
@@ -344,9 +342,7 @@ ul{margin-bottom: 0px;}
     .intro{
         font-size: 16px;
     }
-    .commonbutton{
-        font-size: 16px;
-    }
+    
     .subpic1{
         width: 187.5px;
         height: 187.5px;
@@ -417,6 +413,9 @@ ul{margin-bottom: 0px;}
     }
     .nav-list{font-size: 16px;
        
+    }
+    .commonbutton{
+        font-size: 16px;
     }
     .contact{
         font-size: 16px;
