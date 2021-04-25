@@ -175,7 +175,7 @@ nav{
 }
 
 
-h1{font-size: 60px;
+h1{font-size: 50px;
 font-family: Cambria;
  /* margin-top: 10px;  */
  line-height: 1.5em; 
@@ -183,14 +183,69 @@ font-weight: normal;
 margin-bottom: -5px;}
 
 main{
-    justify-self: center;
+    margin: 0 auto;
     align-self: center;
-    display: grid;
-    grid-template-columns:1fr ;
-    grid-template-rows:0.1fr 0.1fr 0.1fr 0.7fr 0.2fr;
-    grid-template-areas: "nav" "main" "footer" ;
+    display:block;
+width: 85%;}
+
+h1{justify-self: center;
+    text-align: center;
+margin: 0;}
+
+
+    .contactusform{
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+  .yourname{
+      display: flex;
+      flex-direction: column;
+    
+  }
+  input{
+      padding: 3px;
+     
+  border-radius: 4px;
+  resize: vertical;
+ 
+  }
+  #name{height: 1.4em;
+line-height: 1em;
+font-size: 16px;
+margin-bottom:5px;
 
 }
+  #email{height: 1.4em;
+    line-height: 1em;
+    font-size: 16px;
+    margin-bottom:5px;
+   }
+    .bitch{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+       
+        
+
+    }
+  #comments{line-height: 1em;
+    font-size: 16px;
+   
+   
+    /* box-sizing: border-box;
+    border: 1px solid rgb(117, 117, 117); */
+    border-radius: 4px;
+}
+
+  .email{
+    display: flex;
+    flex-direction: column;
+}
+
 /* .submit{
     outline: solid black 2px;
     border:none;
@@ -199,16 +254,18 @@ main{
      */
 
 .submitty{
+    margin: 0 auto;
     outline: solid black 2px;
-    
+    /* width: 100px; */
     padding: 10px 20px;
-    background-color: black;
+    
   font-size: 20px;
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: black;
-  border: none;
-  /* outline: none; */
+  border:rgb(0, 0, 0) solid;
+  border-radius: 0%;
+ 
 }
 
 
