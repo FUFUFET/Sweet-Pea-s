@@ -294,23 +294,11 @@ grid-area: SNS;}
 .copyright{
     grid-area:copyright ;
     justify-self: center;
+    font-family: Arial, Helvetica, sans-serif;
     /* justify-self: flex-end; */
     
 }
 ul{margin-bottom: 0px;}
-
-.mainpic{
-    max-width: 95%;
-    max-height: 95%;}
-    .subpic1{
-    max-width: 95%;
-    max-height: 95%;}
-    .subpic2{
-        max-width: 95%;
-    max-height: 95%;}
-    .subpic3{
-        max-width: 95%;
-    max-height: 95%;}
 
 @media (max-width:1500px){
     .mainpic{width: 550px;

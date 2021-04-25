@@ -321,7 +321,7 @@ grid-area: SNS;}
 .IG:focus{
     outline:black solid 2px;}
     .FB:focus{
-        outline:black solid 3px;}
+        outline:black solid 2px;}
 .copyright{
     grid-area:copyright ;
     justify-self: center;
