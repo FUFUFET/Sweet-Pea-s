@@ -204,6 +204,7 @@ margin: 0;}
 
     label{
         font-size: 20px;
+        margin-top: 6px;
     }
 
   .yourname{
@@ -226,6 +227,8 @@ margin-bottom:5px;
 border:rgb(113,113,113) 1px solid;
 
 }
+#error111{margin-top: -5px;}
+#error112{margin-top: -5px;}
 
 #name:focus{background-color: rgb(255, 255, 255);}
   #email{height: 1.4em;
