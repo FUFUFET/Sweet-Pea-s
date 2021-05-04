@@ -270,7 +270,7 @@ border:rgb(113,113,113) 1px solid;
 
 .submitty{
     margin: 0 auto;
-    outline: solid rgb(255, 244, 209) 1px;
+    outline: solid rgb(255, 244, 209) 2px;
     
     /* width: 100px; */
     padding: 10px 20px;
