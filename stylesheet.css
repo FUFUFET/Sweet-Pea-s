@@ -24,7 +24,7 @@ nav{
 .nav-wrapper{
     width: 90%;
     
-    /* background-color: rgb(255, 244, 209); */
+    /* background-color: rgb(229,222,210); */
     position: relative;
     display:flex;
     justify-content: space-between;
@@ -77,7 +77,7 @@ nav{
 }
 .nav-item{
     list-style: none;
-    margin: 25px;
+    margin: 18px;
     background-color:  #0C6C7B;
  
 }
@@ -108,7 +108,7 @@ nav{
 .hamburger-menu{
     width:44px;
     height:44px;
-    background-color:rgb(255, 244, 209);
+    background-color:rgb(229,222,210);
     cursor: pointer;
     display: flex;
     flex-direction: column;
@@ -164,7 +164,7 @@ nav{
 .change .line-1{
     
     transform: rotateZ(-45deg) translate(-11px,10px);
-    color: rgb(255, 244, 209);
+    color: rgb(229,222,210);
 }
 .change .line-2{
    opacity: 0;
@@ -172,7 +172,7 @@ nav{
 .change .line-3{
     width: 100%;
     transform: rotateZ(45deg) translate(-11px,-10px);
-    color: rgb(255, 244, 209);
+    color: rgb(229,222,210);
 }
 main{width: 90%;
     /* height: 730px; */
@@ -180,7 +180,7 @@ main{width: 90%;
     margin: 0 auto;
    
     display: grid;
-    background-color: rgb(255, 244, 209);
+    background-color: rgb(229,222,210);
     grid-template-columns:1fr 0.33fr 0.33fr 0.33fr ;
         grid-template-rows:0.5fr 0.5fr;
         grid-template-areas: 'mainpic mainconetent mainconetent mainconetent' 'mainpic subpic1 subpic2 subpic3';
@@ -197,7 +197,7 @@ align-self:flex-end;
 }
 .mainconetent{grid-area: mainconetent;
     
-    background-color:rgb(255, 244, 209);
+    background-color:rgb(229,222,210);
    
     display: flex;
     flex-direction: column;
@@ -260,12 +260,12 @@ footer{
     height:fit-content;
     display: grid;
     place-items:end center ;
-    background-color:rgb(255, 244, 209);
+    background-color:rgb(229,222,210);
 }
 .footerwrapper{
     width: 90%;
     display: grid;
-    background-color: rgb(255, 244, 209);
+    background-color: rgb(229,222,210);
     grid-template-columns:0.1fr 0.9fr 1fr ;
         grid-template-rows:0.5fr 0.1fr;
         grid-template-areas: 'SNS contactinfo footerlogo' 'copyright copyright copyright';
@@ -363,7 +363,7 @@ ul{margin-bottom: 0px;}
         .container{width: 100%;
         height:100vh;
         display: grid;
-        background-color: rgb(255, 244, 209);
+        background-color: rgb(229,222,210);
         grid-template-columns:1fr ;
             grid-template-rows:0.1fr 0.8fr 0.2fr;
             grid-template-areas: "nav" "main" "footer" ;}
@@ -375,7 +375,7 @@ ul{margin-bottom: 0px;}
             margin: 0 auto;
            
             display: grid;
-            background-color: rgb(255, 244, 209);
+            background-color: rgb(229,222,210);
             grid-template-columns:0.33fr 0.33fr 0.33fr ;
                 grid-template-rows:0.3fr 0.5fr 0.3fr;
                 grid-template-areas: ' mainconetent mainconetent mainconetent''mainpic mainpic mainpic'  'subpic1 subpic2 subpic3';     
@@ -403,7 +403,7 @@ ul{margin-bottom: 0px;}
     .container{width: 100%;
         height:100vh;
         display: grid;
-        background-color: rgb(255, 244, 209);
+        background-color: rgb(229,222,210);
         grid-template-columns:1fr ;
             grid-template-rows:0.1fr 0.8fr 0.2fr;
             grid-template-areas: "nav" "main" "footer" ;}
@@ -429,7 +429,7 @@ ul{margin-bottom: 0px;}
     .container{width: 100%;
         height:100vh;
         display: grid;
-        background-color: rgb(255, 244, 209);
+        background-color: rgb(229,222,210);
         grid-template-columns:1fr ;
             grid-template-rows:0.1fr 0.8fr 0.2fr;
             grid-template-areas: "nav" "main" "footer" ;}
@@ -511,7 +511,7 @@ height:150px;}
  .container{width: 100%;
         height:105vh;
         display: grid;
-        background-color: rgb(255, 244, 209);
+        background-color: rgb(229,222,210);
         grid-template-columns:1fr ;
             grid-template-rows:0.1fr 0.8fr 0.2fr;
             grid-template-areas: "nav" "main" "footer" ;}
