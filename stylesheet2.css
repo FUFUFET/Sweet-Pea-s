@@ -428,7 +428,7 @@ text-align: center;}
     .container{width: 100%;
         height:100vh;
         display: grid;
-        background-color: rgb(255, 244, 209);
+        background-color: rgb(229,222,210);
         grid-template-columns:1fr ;
             grid-template-rows:0.1fr 1fr 0.2fr;
             grid-template-areas: "nav" "main" "footer" ;}
