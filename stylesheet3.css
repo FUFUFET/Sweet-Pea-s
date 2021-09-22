@@ -12,6 +12,7 @@ grid-template-columns:1fr ;
     grid-template-rows:0.3fr 2fr 0.3fr;
     grid-template-areas: "nav" "main" "footer" ;}
 
+ 
 
 nav{
     width: 100%;
@@ -177,121 +178,62 @@ outline-offset: -3px;
 
 
 h1{font-size: 50px;
-font-family: Cambria;
- /* margin-top: 10px;  */
- line-height: 1.5em; 
-font-weight: normal;
-margin-bottom: -5px;}
-
-main{
-    margin: 0 auto;
-    align-self: center;
-    display:block;
-width: 85%;}
-
-h1{justify-self: center;
+    font-family: Cambria;
+     /* margin-top: 10px;  */
+     line-height: 1.5em; 
+    font-weight: normal;
+    margin-bottom: -5px;
+    justify-self: center;
     text-align: center;
 margin: 0;}
-
-
-    .contactusform{
-        font-family: Arial, Helvetica, sans-serif;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
     
-    }
-
-    label{
-        font-size: 20px;
-        margin-top: 6px;
-    }
-
-  .yourname{
-      display: flex;
-      flex-direction: column;
-      
-    
-  }
-  input{
-      padding: 2px;
-      
-  border-radius: 4px;
-  resize: vertical;
- 
-  }
-  #name{height: 1.4em;
-line-height: 1em;
-font-size: 16px;
-margin-bottom:5px;
-border:rgb(113,113,113) 1px solid;
-
-}
-#error111{margin-top: -5px;}
-#error112{margin-top: -5px;}
-
-#name:focus{background-color: rgb(255, 255, 255);}
-  #email{height: 1.4em;
-    line-height: 1em;
-    font-size: 16px;
-    margin-bottom:5px;
-    border:rgb(113,113,113) 1px solid;
-   }
-   #email:focus{background-color: rgb(255, 255, 255);}
-    .trick{
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-       
-        
-
-    }
-  #comments{line-height: 1em;
-    font-size: 16px;
-   
-   
-    /* box-sizing: border-box;
-    border: 1px solid rgb(117, 117, 117); */
-    border-radius: 4px;
-}
-#comments:focus{background-color: rgb(255, 255, 255);}
-
-  .email{
-    display: flex;
-    flex-direction: column;
-}
-
-/* .submit{
-    outline: solid black 2px;
-    border:none;
-    padding: 10px 20px;
-    background-color: black;
-     */
-
-.submitty{
+    main{
+        margin: 0 auto;
+        align-self: center;
+        display:block;
+    width: 85%;
+place-content: center;}
+table{
     margin: 0 auto;
-    outline: solid rgb(229,222,210) 2px;
-    
-    /* width: 100px; */
-    padding: 10px 20px;
-    
-  font-size: 20px;
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: black;
-  border-color: black black;
-  border-width: 2px;
-  border-radius: 0%;
- 
-}
-.submitty:hover{
-    background-color: rgb(255, 255, 255);
-    color: black;}
-    .submitty:focus{
-        background-color: rgb(255, 255, 255);
-        color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
+    table, th, td {
+        border: 1px solid black;
+      }
+     
+      /* th, td {
+        height: 150px;
+      } */
+      .firstrow{height: 50px;}
+      .secondrow{height: 150px;}
+      .thirdrow{height: 150px;}
+      .forthrow{height: 150px;}
+      
+
+      .col1{width:100px;
+      }
+
+      td{
+          margin: 0;
+          max-width: 85%;
+          line-height: 1.5em; 
+          text-align:center;
+      }
+.Description{width: 800px;
+font-size: 18px;}
+
+.visually-hidden {
+    position: absolute;
+  clip: rect(0 0 0 0);
+  border: 0;
+  height: 1px; margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  width: 1px;
+  white-space: nowrap;
+  }
 
 footer{
     height:fit-content;
