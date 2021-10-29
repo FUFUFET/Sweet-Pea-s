@@ -400,9 +400,11 @@ ul{margin-bottom: 0px;}
             grid-template-rows:0.1fr 0.8fr 0.2fr;
             grid-template-areas: "nav" "main" "footer" ;}
 
-
+            .contactinfo{margin-left: 10px;}
         
 }
+
+
 @media (max-width:800px){
 
     .container{width: 100%;
