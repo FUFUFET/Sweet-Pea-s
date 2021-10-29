@@ -485,7 +485,8 @@ height:150px;}
     justify-self: center;
  }
  .contactinfo{justify-self:center;
-text-align: center;}
+text-align: center;
+margin-left: 0px;}
      h1{font-size: 30px;}
     .intro{font-size: 16px;} 
 }
