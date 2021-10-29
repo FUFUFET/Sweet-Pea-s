@@ -136,6 +136,10 @@ outline-offset: -3px;
 
 
 }
+#now{font-weight: bold;
+    text-decoration: underline;}
+
+
 .hamburger-menu{
     width:44px;
     height:44px;
